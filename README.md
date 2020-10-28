@@ -60,6 +60,7 @@ Assuming you are using a vCenter cloud on the Avi Controller, critical variables
 ```
 controllerVersion: “<your Avi Controller version>”
 clusterName: “microk8s-cluster”
+cniPlugin: "calico"
 subnetIP: “<your VIP subnet>”
 subnetPrefix: “<your VIP subnet prefix>”
 networkName: “<port group name in vCenter where VIP subnet is>”
