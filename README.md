@@ -57,7 +57,7 @@ Modify `values.yaml` based on your deployment.
 Cluster name is `microk8s-cluster`
 
 Assuming you are using a vCenter cloud on the Avi Controller, critical variables to modify are:
-
+```
 controllerVersion: “<your Avi Controller version>”
 clusterName: “microk8s-cluster”
 subnetIP: “<your VIP subnet>”
@@ -66,6 +66,7 @@ networkName: “<port group name in vCenter where VIP subnet is>”
 controllerIP: “<Avi Controller IP>”
 username: “<Avi Controller username>”
 password: “<Avi Controller password>”
+```
 
 ### Add `avi-system` namespace
 Create the avi-system namespace which is where the AKO agent will be installed.  
