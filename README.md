@@ -1,5 +1,13 @@
 # micro8ks-ako
 
+### Assumptions
+Avi Controller is deployed, and a supported cloud as per https://avinetworks.com/docs/ako/1.2/ako-compatibility-guide/ is configured and working correctly.
+IPAM and DNS profiles should be configured and proven working against the cloud configuration prior to installing AKO.
+
+If deploying microk8s in an Operating System within a Virtual Machine, ensure it has 4 vCPU and 4GB RAM.
+
+Tested against Ubuntu 18.04 and 20.04.
+
 ### AKO Installation on microk8s
 Some notes about installing VMware NSX Advanced Load Balancer AKO (Avi Kubernetes Operator) on a local microk8s cluster  
 
