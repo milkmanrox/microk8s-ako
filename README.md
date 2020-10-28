@@ -72,5 +72,6 @@ helm install ako/ako --generate-name --version 1.2.1 -f values.yaml --namespace=
 ```
 
 If the AKO install works and can successfully authenticate to the Avi Controller, you will see a static route defined against your cloud
+
 ![route-screenshot](route-screenshot.png)
 
