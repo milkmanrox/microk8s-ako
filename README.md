@@ -1,6 +1,6 @@
 # micro8ks-ako
 
-### AKO Installation on microK8s
+### AKO Installation on microk8s
 Some notes about installing VMware NSX Advanced Load Balancer AKO (Avi Kubernetes Operator) on a local microk8s cluster  
 
 ### Install Kubectl
